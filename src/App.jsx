@@ -12,6 +12,7 @@ const SHOES = [
   { id: 6, name: "Campus Men's OG-03 Sneakers", price: 75, image: "/images/shoe.avif" },
 ];
 
+function Store() {
 
   const { cart, addToCart, removeFromCart, total } = useCart();
 
